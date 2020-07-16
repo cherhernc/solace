@@ -1,0 +1,421 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background-color: white;
+
+}
+
+main {
+	/*margin: 0 240px;*/
+}
+
+.navigation-bar {
+	width: 100%;
+	height: 80px;
+	background-color: #364558;
+	padding-right: 240px;
+	padding-left: 240px;
+	text-decoration: none;
+
+}
+
+
+.logo img {
+	width: 100%;
+}
+
+.navigation-bar > a {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 72px;
+	height: 80px;
+	line-height: 80px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	float: right;
+	text-decoration: none;
+	color: #efe5cd;
+
+}
+
+
+a.logo {
+	display: inline-block;
+	vertical-align: top;
+	width: 181px;
+	margin-top: 15px;
+	float: left;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #efe5cd;
+	text-decoration: none;
+}
+
+
+
+.heroImage {
+	width: 100%;
+	height: 1000px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+
+
+}
+
+
+
+h2 {
+	text-align: center;
+	padding: 200px 100px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: bolder;
+	color: white;
+	font-size: 146px;
+	margin: 0;
+}
+
+a#centreButton01 {
+	padding: 10px;
+	display: block;
+	background-color: #efe5cd;
+	border-style: none;
+	color: #364558;
+	width: 464px;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+h3 {
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #2C1E15;
+	font-size: 64px;
+	margin: 0;
+}
+
+a#homepageButton {
+	padding: 10px;
+	display: block;
+	background-color: #364558;
+	border-style: none;
+	color: white;
+	width: 464px;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin: 60px 600px 0 0;
+
+}
+
+p {
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+	padding-top: 160px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #2C1E15;
+	font-size: 64px;
+	margin: 0;
+	text-align: center;
+}
+
+a#centreButton02 {
+	padding: 10px;
+	display: block;
+	background-color: #364558;
+	border-style: none;
+	color: white;
+	width: 464px;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin: 60px auto 0px auto;
+
+
+}
+
+.bottomImage {
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+
+.solaceLounge {
+	display: flex;
+	justify-content: space-between;
+}
+
+.solaceLounge .text-box {
+	background-color: white;
+	flex-grow: 1;
+	margin-left: 240px;
+	align-content: center;
+	margin: auto 60px auto 240px;
+
+}
+
+.download {
+	background-color: #efe5cd;
+	padding: auto 160px;
+	padding-bottom: 160px;
+
+}
+
+.pageHeaders {
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #2C1E15;
+	font-size: 64px;
+	margin: 100px 0;
+}
+
+.pages {
+	margin: 0 240px;
+}
+
+#aboutImage {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 0 60px 0;
+
+}
+
+#aboutPara {
+	width: 1000px;
+	margin-bottom: 100px;
+}
+
+#menuButtonSection {
+	display: flex;
+}
+
+a#menuButton,
+#bookButton {
+	padding: 10px;
+	display: block;
+	background-color: #364558;
+	border-style: none;
+	color: white;
+	width: 464px;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin: 0px 60px 0 0;
+
+}
+
+#menuPara {
+	width: 1200px;
+	margin-bottom: 60px;
+}
+
+#foodImages {
+	display: flex;
+	align-content: center;
+
+}
+
+#foodImages img {
+	padding: 100px 60px 100px 0;
+}
+
+#solaceSection {
+	display: flex;
+	margin: 100px 240px;
+}
+
+#solaceText {
+	margin: 0;
+
+}
+
+#solacePara {
+	width: 1200px;
+	margin-bottom: 60px;
+}
+
+#solaceMain {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+#booking {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+#bookingList {
+	padding-left: 0;
+	margin-left: 0;
+	margin-right: 400px;
+	width: 700px;
+	background-color: white;
+	list-style: none;
+	border-bottom: 1px;
+
+
+}
+
+#yourmessage {
+	margin-top: 0;
+	margin-bottom: 29px;
+	background-color: white;
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: thin;
+	padding: 12px;
+	padding-bottom: 121px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #2C1E15;
+
+}
+
+.details {
+	margin-top: 0;
+	margin-bottom: 29px;
+	background-color: white;
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: thin;
+	padding: 12px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #2C1E15;
+}
+
+#detailsinfo {
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	list-style: none;
+
+
+}
+
+#detailsContact {
+	display: flex;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	margin-top: 0;
+
+}
+
+#phone,
+#contact,
+#add {
+	background-color: white;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	color: #2C1E15;
+}
+
+i {
+	font-size: 64px;
+	margin-top: 60px;
+	padding-right: 32px;
+	color: #2C1E15;
+}
+
+
+
+
+footer {
+	background-color: #364558;
+	height: 300px;
+	width: 1920px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 156px 90px;
+	grid-gap: 60px;
+	padding-left: 375px;
+	padding-right: 375px;
+	width: 100%;
+}
+
+#footerLogo {
+	padding-top: 60px;
+	width: 180px;
+}
+
+a#centreButton03 {
+	padding: 10px;
+	display: block;
+	background-color: #efe5cd;
+	border-style: none;
+	color: #364558;
+	width: 464px;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin: 60px 0 0 0;
+
+
+}
+
+ul {
+	background-color: #364558;
+	margin-bottom: 40px;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 10px;
+	background-color: #364558;
+	color: #efe5cd;
+}
+
+#infolist1 {
+
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal font-size: 18px;
+	padding-top: 30px;
+	font-size: 20px;
+}
